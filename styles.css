@@ -89,13 +89,32 @@ button {
     text-shadow: 0px 1px 0px #ffffff;
 }
 
+#rules {
+    background-color: #838383;
+    margin-right: 1em;
+}
+
+#rules:hover {
+    background-color: #838383;
+    margin-right: 1em;
+}
+
 #map {
     background-color: #BEDA7D;
     margin-right: 1em;
 }
 
+#map:hover {
+    background-color: #d4e99e;
+    margin-right: 1em;
+}
+
 #discord {
     background-color: #8a9cfe;
+}
+
+#discord:hover {
+    background-color: #97a6ff;
 }
 
 #discord_icon {
@@ -129,5 +148,14 @@ button {
 }
 
 .body-box p {
+    text-align: center;
+}
+
+.footer {
+    color: #9b9b9b;
+    position: fixed;
+    left: 0;
+    bottom: 0.4em;
+    width: 100%;
     text-align: center;
 }
