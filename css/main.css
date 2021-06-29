@@ -1,5 +1,5 @@
 html {
-    background: url("https://github.com/Geoffery10/minecraft-server/blob/main/images/background.png?raw=true") no-repeat center center fixed;
+    background-color: rgb(104, 42, 112);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,6 +7,28 @@ html {
 }
 
 body {
-    background-color: url("images/background.png");
+    width: 500px;
+    height: 200px;
+    border: solid 0px #555;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    padding: 30px 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
+
+h1 {}
