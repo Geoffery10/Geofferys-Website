@@ -5,4 +5,5 @@ function CopyToClipboard(id) {
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
+    document.getElementById("copy_icon").src = "../template/save.png";
 }

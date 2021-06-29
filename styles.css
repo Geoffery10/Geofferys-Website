@@ -121,10 +121,11 @@ button {
     background-color: #97a6ff;
 }
 
-#discord_icon {
+.button_icon {
     margin-right: 0.5em;
     height: 1.0em;
     vertical-align: middle;
+    width: 1.0em;
 }
 
 .body-box {
