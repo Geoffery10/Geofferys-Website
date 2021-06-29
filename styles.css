@@ -15,8 +15,6 @@ html {
     height: 100%;
 }
 
-body {}
-
 .body {
     width: auto;
     margin: 0 auto;
@@ -83,6 +81,18 @@ button {
     text-shadow: 0px 1px 0px #ffffff;
 }
 
+#play {
+    background-color: #da7dc3;
+    margin-right: 1em;
+    margin-bottom: 0.9em;
+}
+
+#play:hover {
+    background-color: #e99ed3;
+    margin-right: 1em;
+    margin-bottom: 0.9em;
+}
+
 #rules {
     background-color: #838383;
     margin-right: 1em;
@@ -118,11 +128,13 @@ button {
 }
 
 .body-box {
-    position: fixed;
-    /* or absolute */
-    top: 30%;
-    left: 30%;
-    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    width: auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
     border-radius: 25px;
     padding: 10px;

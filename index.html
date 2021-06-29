@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
@@ -22,10 +23,11 @@
                 <p>A survivel PvE Community Server were friends can come together, build together, and survive together.</p>
                 <p>This server contains many difficult challenges including dungeons and Elite Mobs.</p>
                 <p>Join us by using the IP below!</p>
-                <h2>IP: play.geoffery10.com</h2>
+                <button onclick="CopyToClipboard('serverip');return false;" id="play"><span id="serverip">play.geoffery10.com</span></button>
+
                 <form>
                     <button formaction="" id="rules">Rules</button>
-                    <button formaction="http://mc.geoffery10.com/" id="map">Map</button>
+                    <button formaction="http://play.geoffery10.com/" id="map">Map</button>
                     <button formaction="https://discord.gg/Kfd4dVXX3Y" id="discord"><img src="https://raw.githubusercontent.com/Geoffery10/minecraft-server/30e91eacaaeacd0825f1dc0cad7dd8faf44918b9/images/discord_icon.svg" border="0" id="discord_icon">Discord</button>
                 </form>
 
