@@ -2,6 +2,7 @@ body,
 html {
     height: 100%;
     margin: 0;
+    font-family: 'Arial', 'sans-serif';
 }
 
 html {
@@ -28,18 +29,49 @@ body {
     padding: 0.8em;
 }
 
-.header {
-    color: #ffffff;
+.topnav {
+    overflow: hidden;
     position: relative;
 }
 
-.header p {
-    font-size: 28px;
+
+/* Style the links inside the navigation bar */
+
+.nav-left {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    top: 50%;
+    width: auto;
+}
+
+
+/* Right-aligned section inside the top navigation */
+
+.topnav-right {
+    float: right;
+    transform: translate(0%, 50%);
+    margin: 1em;
+    width: auto;
+}
+
+.nav-left img {
+    width: 30%;
+}
+
+.topnav p {
+    font-size: 30px;
     margin: 0;
-    position: absolute;
+    margin-left: 0.7em;
     top: 50%;
     font-family: 'Arial', 'sans-serif';
     font-weight: bold;
+}
+
+.box {
+    display: flex;
+    align-items: center;
 }
 
 button {
@@ -49,7 +81,6 @@ button {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    font-family: Arial;
     font-size: 17px;
     padding: 16px 31px;
     text-decoration: none;
@@ -57,7 +88,8 @@ button {
 }
 
 #map {
-    background-color: #36b558;
+    background-color: #BEDA7D;
+    margin-right: 1em;
 }
 
 #discord {
@@ -70,12 +102,27 @@ button {
     vertical-align: middle;
 }
 
-#header-e1 {
-    float: left;
+.body-box {
+    position: fixed;
+    /* or absolute */
+    top: 45%;
+    left: 20%;
+    background-color: #B2DDF0;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    border-radius: 25px;
+    padding: 16px;
+    width: fit-content;
+    text-align: left;
+    font-weight: bold;
+    min-width: 40%;
+    color: #ffffff;
 }
 
-#header-e2 {
-    float: right;
+.body-box h1 {
+    text-align: center;
+    line-height: 4px;
 }
 
-h1 {}
+.body-box h2 {
+    text-align: center;
+}
