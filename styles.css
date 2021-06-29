@@ -33,9 +33,16 @@ html {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vw 1vw;
     top: 50%;
     width: auto;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
+
+@media screen and (max-width: 800px) {
+    .nav-left {
+        filter: drop-shadow(0 0 0.9vw rgba(0, 0, 0, 0.5));
+    }
 }
 
 
@@ -44,13 +51,18 @@ html {
 .topnav-right {
     float: right;
     transform: translate(0%, 50%);
-    margin: 1em;
+    margin: 1vw;
     width: auto;
 }
 
 .nav-left img {
     width: 30%;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
+
+@media screen and (max-width: 800px) {
+    .nav-left img {
+        width: 15%;
+    }
 }
 
 .topnav p {
@@ -60,7 +72,6 @@ html {
     top: 50%;
     font-family: 'Arial', 'sans-serif';
     font-weight: bold;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }
 
 a {
@@ -85,6 +96,7 @@ button {
     font-size: 17px;
     padding: 16px 31px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .buttons {
@@ -94,22 +106,35 @@ button {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    font-size: 17px;
-    padding: 16px 31px;
+    font-size: 18px;
+    padding: 16px 20px;
     text-decoration: none;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
+    margin-bottom: 1vw;
+}
+
+@media screen and (max-width: 800px) {
+    .buttons {
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #play {
+        font-size: 4vw;
+        font-weight: bold;
+    }
 }
 
 #play {
     background-color: #da7dc3;
     margin-right: 1em;
-    margin-bottom: 0.9em;
 }
 
 #play:hover {
     background-color: #e99ed3;
     margin-right: 1em;
-    margin-bottom: 0.9em;
 }
 
 #rules {
@@ -152,7 +177,6 @@ button {
     left: 50%;
     top: 50%;
     height: auto;
-    width: auto;
     transform: translate(-50%, -50%);
     background-color: rgba(69, 64, 90, 0.8);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
@@ -166,6 +190,25 @@ button {
     padding-bottom: 1.5em;
     padding-left: 1.5em;
     padding-right: 1.5em;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    max-width: 80vw;
+}
+
+@media (max-width: 800px) {
+    .body-box {
+        position: relative;
+        top: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@media (max-width: 800px) {
+    .body-box h1 {
+        font-size: 8vw;
+    }
 }
 
 .body-box h1 {
@@ -201,4 +244,10 @@ button {
     bottom: 0.4em;
     width: 100%;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        position: relative;
+    }
 }
