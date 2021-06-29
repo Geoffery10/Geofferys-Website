@@ -1,11 +1,42 @@
+body,
 html {
-    background-image: url("https://github.com/Geoffery10/minecraft-server/blob/main/images/background_med_edit.jpg?raw=true");
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    background: url("https://github.com/Geoffery10/minecraft-server/blob/main/images/background_med_edit.jpg?raw=true") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url("https://raw.githubusercontent.com/Geoffery10/minecraft-server/402e56f330aff1cae31295231604a82f27bdd201/images/background_wave.svg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-body {}
+.body {
+    width: 560px;
+    margin: 0 auto;
+}
+
+#header-e1 {
+    float: left;
+}
+
+#header-e2 {
+    float: right;
+}
+
+#header-e3 {
+    float: right;
+}
 
 h1 {}
