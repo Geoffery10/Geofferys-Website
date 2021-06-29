@@ -63,6 +63,13 @@ html {
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }
 
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
 .box {
     display: flex;
     align-items: center;

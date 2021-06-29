@@ -5,5 +5,5 @@ function CopyToClipboard(id) {
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
-    document.getElementById("copy_icon").src = "../template/save.png";
+    document.getElementById("copy_icon").src = "https://raw.githubusercontent.com/Geoffery10/minecraft-server/1df3f10e236e052786fbb064801b49962930d165/images/check-mark.svg";
 }
