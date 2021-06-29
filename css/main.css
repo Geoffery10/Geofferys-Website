@@ -23,12 +23,27 @@ body {
 }
 
 .body {
-    width: 560px;
+    width: auto;
     margin: 0 auto;
+    padding: 0.8em;
+}
+
+.header {
+    color: #ffffff;
+    position: relative;
+}
+
+.header p {
+    font-size: 28px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
 }
 
 button {
-    background-color: #36b558;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 28px;
     border: 0px solid #ffffff;
     display: inline-block;
@@ -39,6 +54,10 @@ button {
     padding: 16px 31px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffffff;
+}
+
+#map {
+    background-color: #36b558;
 }
 
 #discord {
