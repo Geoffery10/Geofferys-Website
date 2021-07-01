@@ -1,77 +1,144 @@
-body,
+/* Background elements */
+
 html {
     height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    font-family: 'Arial', 'sans-serif';
+    padding: 0;
 }
 
-html {
-    background: url("https://github.com/Geoffery10/minecraft-server/blob/main/images/background_med_dark_2.jpg?raw=true") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+body {
+    /* The image used */
+    background-image: linear-gradient(30deg, #D44AEE, #00B4F0);
+    /* Full height */
+    height: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.body {
-    width: auto;
-    margin: 0 auto;
-    padding: 0.8em;
-}
-
-.topnav {
-    overflow: hidden;
-    position: relative;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 1vh;
 }
 
 
-/* Style the links inside the navigation bar */
+/* Center pane elements */
 
-.nav-left {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 1vw 1vw;
-    top: 50%;
-    width: auto;
+.content {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(55, 54, 79, 1);
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    padding-top: 2%;
+    border-radius: 25px;
 }
 
-@media screen and (max-width: 800px) {
-    .nav-left {
-        filter: drop-shadow(0 0 0.9vw rgba(0, 0, 0, 0.5));
-    }
-}
-
-
-/* Right-aligned section inside the top navigation */
-
-.topnav-right {
-    float: right;
-    transform: translate(0%, 50%);
-    margin: 1vw;
-    width: auto;
-}
-
-.nav-left img {
+.logo img {
     width: 30%;
 }
 
+
+/* Header elements */
+
+.header {
+    border: 1px;
+    padding: 10px;
+    padding-bottom: 75px;
+    background-color: rgba(55, 54, 79, 1);
+}
+
+.logo img {
+    float: center;
+    transition: transform 250ms, opacity 400ms;
+}
+
+.logo img:hover {
+    transform: scale(1.03);
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* Subdividing sidenav and body */
+
+.header img {
+    float: center;
+    padding-right: 10px;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    margin-top: 1%;
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 800px) {
-    .nav-left img {
-        width: 15%;
+    .left {
+        width: 85%;
     }
 }
 
-.topnav p {
-    font-size: 30px;
-    margin: 0;
-    margin-left: 0.7em;
-    top: 50%;
-    font-family: 'Arial', 'sans-serif';
-    font-weight: bold;
+.center {
+    width: 90%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    justify-content: center;
+}
+
+.right {
+    width: 45%;
+}
+
+.right iframe {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .right {
+        width: 95%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .right iframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: inherit;
+    }
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Body elements */
+
+.body {
+    line-height: normal;
+}
+
+.first-letter {
+    font-size: 50px;
+    line-height: 70px;
 }
 
 a {
@@ -79,11 +146,6 @@ a {
     /* blue colors for links too */
     text-decoration: inherit;
     /* no underline */
-}
-
-.box {
-    display: flex;
-    align-items: center;
 }
 
 button {
@@ -128,32 +190,32 @@ button {
 }
 
 #play {
-    background-color: #da7dc3;
+    background-color: rgb(199, 83, 239);
     margin-right: 1em;
 }
 
 #play:hover {
-    background-color: #e99ed3;
+    background-color: rgb(205, 94, 241);
     margin-right: 1em;
 }
 
 #rules {
-    background-color: #ca3e3e;
+    background-color: rgb(254, 38, 61);
     margin-right: 1em;
 }
 
 #rules:hover {
-    background-color: #d85353;
+    background-color: rgb(253, 52, 72);
     margin-right: 1em;
 }
 
 #map {
-    background-color: #b6d371;
+    background-color: rgb(0, 178, 75);
     margin-right: 1em;
 }
 
 #map:hover {
-    background-color: #c7dd8e;
+    background-color: rgb(21, 196, 94);
     margin-right: 1em;
 }
 
@@ -172,82 +234,28 @@ button {
     width: 1.0em;
 }
 
-.body-box {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    height: auto;
-    transform: translate(-50%, -50%);
-    background-color: rgba(69, 64, 90, 0.8);
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
-    border-radius: 25px;
-    padding: 10px;
-    width: fit-content;
-    text-align: center;
-    font-weight: bold;
-    max-width: auto;
-    color: #ffffff;
-    padding-bottom: 1.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    max-width: 80vw;
-}
-
-@media (max-width: 800px) {
-    .body-box {
-        position: relative;
-        top: 50%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        transform: translate(-50%, 0%);
-    }
-}
-
-@media (max-width: 800px) {
-    .body-box h1 {
-        font-size: 8vw;
-    }
-}
-
-.body-box h1 {
-    text-align: center;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.8));
-}
-
-.body-box h2 {
-    text-align: center;
-}
-
-.body-box p {
-    text-align: center;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.8));
-}
-
 .rules h3 {
     text-align: center;
     font-weight: bold;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.8));
 }
 
 .rules p {
     text-align: center;
     font-weight: normal;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.8));
 }
 
-.footer {
-    color: #9b9b9b;
-    position: fixed;
-    left: 0;
-    bottom: 0.4em;
-    width: 100%;
+
+/* Footer elements */
+
+.copyright {
     text-align: center;
 }
 
-@media (max-width: 800px) {
-    .footer {
-        position: relative;
-    }
+.site-footer {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.3);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
