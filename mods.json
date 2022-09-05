@@ -6,6 +6,7 @@
         "GAME_VERSION": "1.19.2",
         "MOD_LOADER": "FABRIC",
         "MOD_LOADER_VERSION": "0.14.9",
-        "PACK_VERSION": "1.0.1"
+        "PACK_VERSION": "1.0.1",
+        "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/config.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/mods.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/shaderpacks.zip"]
     }]
 }
