@@ -18,7 +18,7 @@
             "MOD_LOADER_VERSION": "39.0.7",
             "PACK_VERSION": "1.1",
             "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Mods.v1.1.-.1.18.1.zip", "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/forge-1.18.1-39.0.7-installer.jar", "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Cape.png"],
-            "BANNER_URL": "https://github.com/Geoffery10/minecraft-server/blob/main/images/Yggrasil_02_Round.png?raw=true"
+            "BANNER_URL": "https://github.com/Geoffery10/minecraft-server/blob/main/images/Yggrasil_02_Round.png"
         }
     ],
     "PACKS-COMMING-SOON": [{
