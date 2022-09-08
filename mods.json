@@ -7,7 +7,18 @@
             "MOD_LOADER": "FABRIC",
             "MOD_LOADER_VERSION": "0.14.9",
             "PACK_VERSION": "1.0.2",
-            "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/config.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_01.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_02.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_03.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_04.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_05.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_06.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_07.zip", "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/shaderpacks.zip", "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.exe"],
+            "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/config.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_01.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_02.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_03.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_04.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_05.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_06.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_07.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_08.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/shaderpacks.zip",
+                "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.exe"
+            ],
             "BANNER_URL": "https://mcweb.geoffery10.com/mod-packs/yggdrasil-banner.json"
         },
         {
@@ -17,7 +28,10 @@
             "MOD_LOADER": "FORGE",
             "MOD_LOADER_VERSION": "39.0.7",
             "PACK_VERSION": "1.1",
-            "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Mods.v1.1.-.1.18.1.zip", "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/forge-1.18.1-39.0.7-installer.jar", "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Cape.png"],
+            "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Mods.v1.1.-.1.18.1.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/forge-1.18.1-39.0.7-installer.jar",
+                "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Cape.png"
+            ],
             "BANNER_URL": "https://github.com/Geoffery10/minecraft-server/blob/main/images/Yggrasil_02_Round.png"
         }
     ],
