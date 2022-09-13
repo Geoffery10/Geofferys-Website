@@ -23,6 +23,7 @@
                 "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.exe"
             ],
             "BANNER_URL": "https://mcweb.geoffery10.com/mod-packs/yggdrasil-banner.json",
+            "RECOMMEND_RAM": 4,
             "MODS": ["AdditionalAdditions-5.0.2.jar", 
 "AdditionalStructures-1.19.x-(v.4.1.0).jar",
 "Adorn-3.6.1+1.19-fabric.jar",
@@ -206,6 +207,7 @@
                 "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Cape.png"
             ],
             "BANNER_URL": "https://github.com/Geoffery10/minecraft-server/blob/main/images/Yggrasil_02_Round.png",
+            "RECOMMEND_RAM": 2,
             "MODS": []
         }
     ],
@@ -218,6 +220,7 @@
         "PACK_VERSION": "1.0.1",
         "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/shaderpacks.zip"],
         "BANNER_URL": "https://mcweb.geoffery10.com/mod-packs/yggdrasil-banner.json",
+        "RECOMMEND_RAM": 2,
         "MODS": []
     }]
 }
