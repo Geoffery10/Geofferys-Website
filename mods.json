@@ -20,6 +20,7 @@
                 "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_09.zip",
                 "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_10.zip",
                 "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_11.zip",
+                "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/mods_12.zip",
                 "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/shaderpacks.zip",
                 "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.exe"
             ],
@@ -194,7 +195,11 @@
 "Xaeros_Minimap_22.13.2_Fabric_1.19.1.jar",
 "xpstorage_trinkets-0.1+1.19.jar",
 "xp_storage-1.4.3+1.19.jar",
-"Zoomify-2.5.1.jar"]
+"Zoomify-2.5.1.jar",
+"owo-lib-0.8.2+1.19.jar",
+"minecraft-comes-alive-7.3.21+1.19.1-universal.jar",
+"3dskinlayers-fabric-1.5.1-mc1.19.1.jar",
+"morefrogs-1.19.x-1.2.3-fabric.jar"]
         },
         {
             "GAME": "Minecraft",
