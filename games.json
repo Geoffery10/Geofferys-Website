@@ -1,0 +1,12 @@
+{
+    "Games": [
+        {
+            "Name": "Minecraft",
+            "Mod URL": "https://mcweb.geoffery10.com/mods.json"
+        },
+        {
+            "Name": "Bonelab",
+            "Mod URL": "https://mcweb.geoffery10.com/mods/bonelab_mods.json"
+        }
+    ]
+}
