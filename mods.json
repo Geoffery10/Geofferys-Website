@@ -1,6 +1,6 @@
 {
     "MODDUDE_DOWNLOAD_URL": ["https://github.com/Geoffery10/ModDude/releases/download/v1.0.6/ModDude.exe"],
-    "CURRENT_VERSION": "1.0.7",
+    "CURRENT_VERSION": "1.0.8",
     "PACKS": [{
             "GAME": "Minecraft",
             "PACK_NAME": "Yggdrasil Modded (Recommended)",
