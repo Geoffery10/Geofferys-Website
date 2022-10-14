@@ -340,6 +340,7 @@ button {
 
 .slideshow-container img {
     transition: transform 250ms, opacity 400ms;
+    border-radius: 5%;
 }
 
 .slideshow-container img:hover {
