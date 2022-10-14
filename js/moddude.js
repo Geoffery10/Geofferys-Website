@@ -23,8 +23,10 @@ $(document).ready(function(){
         // Add the games to the html
         $("#supported_games").html(games);
 
+        var game = data.Games[0];
+        var url = game['Mod URL'];
         // Get version of moddude
-        $.getJSON(data.Games[0]['Mod URL'], function(data_02) {
+        $.getJSON(url, function(data_02) {
             console.log(data_02);
             $("#moddude_download").html("Download! v" + data_02['CURRENT_VERSION']);
         });
