@@ -249,6 +249,18 @@ button {
     margin-right: 1em;
 }
 
+#about {
+    background-color: #541c8a;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#about:hover {
+    background-color: #462169;
+    margin-right: 1em;
+}
+
 .button_icon {
     margin-right: 0.5em;
     height: 1.0em;
@@ -287,11 +299,11 @@ button {
 }
 
 #download {
-    background-color: rgb(18, 238, 172);
+    background-color: rgb(16, 204, 148);
 }
 
 #download:hover {
-    background-color: rgb(42, 240, 181);
+    background-color: rgb(16, 204, 148);
 }
 
 

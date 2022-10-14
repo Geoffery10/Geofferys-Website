@@ -39,6 +39,19 @@ body {
     width: 70%;
 }
 
+.logo_smaller img {
+    width: 30%;
+}
+
+.logo_smaller img {
+    float: center;
+    transition: transform 250ms, opacity 400ms;
+}
+
+.logo_smaller img:hover {
+    transform: scale(1.03);
+}
+
 
 /* Header elements */
 
@@ -302,12 +315,19 @@ button {
     margin-bottom: 20px;
 }
 
+.minecraft_table {
+    background-image: url("/images/minecraft_background_01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #download {
-    background-color: rgb(18, 238, 172);
+    background-color: rgb(16, 204, 148);
 }
 
 #download:hover {
-    background-color: rgb(42, 240, 181);
+    background-color: rgb(16, 204, 148);
 }
 
 
