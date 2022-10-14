@@ -6,7 +6,7 @@ $(document).ready(function(){
         if (data.online == true) {
             // Log to console
             console.log("Minecraft server is online");
-            $("#minecraft_online").html("Server is Online 🟢");
+            $("#minecraft_online").html("Server is Online (" + data.players.online + "/" + data.players.max + ") 🟢");
         } else {
             // Log to console
             console.log("Minecraft server is offline");
