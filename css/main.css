@@ -1,0 +1,432 @@
+/* Background elements */
+
+html {
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* The image used */
+    background-image: linear-gradient(30deg, #D44AEE, #00B4F0);
+    /* Full height */
+    height: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 1vh;
+}
+
+
+/* Center pane elements */
+
+.content {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(55, 54, 79, 1);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    padding-top: 2%;
+    border-radius: 25px;
+}
+
+.logo img {
+    width: 70%;
+}
+
+
+/* Header elements */
+
+.header {
+    border: 1px;
+    padding: 10px;
+    padding-bottom: 75px;
+    background-color: rgba(55, 54, 79, 1);
+}
+
+.logo img {
+    float: center;
+    transition: transform 250ms, opacity 400ms;
+}
+
+.logo img:hover {
+    transform: scale(1.03);
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* Subdividing sidenav and body */
+
+.header img {
+    float: center;
+    padding-right: 10px;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    margin-top: 1%;
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .left {
+        width: 85%;
+    }
+}
+
+.center {
+    width: 90%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    justify-content: center;
+}
+
+.right {
+    width: 45%;
+}
+
+.right iframe {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .right {
+        width: 95%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .right iframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: inherit;
+    }
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Body elements */
+
+.body {
+    line-height: normal;
+}
+
+.first-letter {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 28px;
+    border: 0px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttons {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 28px;
+    border: 0px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px 20px;
+    text-decoration: none;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
+    margin-bottom: 1vw;
+    min-width: 100px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+@media screen and (max-width: 800px) {
+    .buttons {
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #play {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+}
+
+#play {
+    background-color: rgb(199, 83, 239);
+    margin-right: 1em;
+}
+
+#play:hover {
+    background-color: rgb(205, 94, 241);
+    margin-right: 1em;
+}
+
+#github {
+    background-color: rgb(14, 17, 23);
+}
+
+#github:hover {
+    background-color: rgb(23, 27, 34);
+}
+
+#back {
+    background-color: rgb(254, 38, 61);
+}
+
+#back:hover {
+    background-color: rgb(253, 52, 72);
+}
+
+#instagram {
+    background-color: rgb(113, 46, 237);
+}
+
+#instagram:hover {
+    background-color: rgb(235, 25, 129);
+}
+
+#discord {
+    background-color: #8a9cfe;
+}
+
+#discord:hover {
+    background-color: #97a6ff;
+}
+
+#twitter {
+    background-color: rgb(64, 157, 236);
+}
+
+#twitter:hover {
+    background-color: rgb(69, 157, 255);
+}
+
+#booth {
+    background-color: rgb(195, 162, 221);
+}
+
+#booth:hover {
+    background-color: rgb(126, 112, 242);
+}
+
+#redbubble {
+    background-color: rgb(255, 0, 0);
+}
+
+#redbubble:hover {
+    background-color: rgb(255, 35, 57);
+}
+
+.button_icon {
+    margin-right: 0.5em;
+    height: 1.0em;
+    vertical-align: middle;
+    width: 1.0em;
+}
+
+.rules h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.rules p {
+    text-align: center;
+    font-weight: normal;
+}
+
+.mods h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mods p {
+    text-align: center;
+    font-weight: normal;
+}
+
+.mods table {
+    background-color: rgba(0, 0, 0, 0.267);
+    text-align: center;
+    width: 100%;
+    border-radius: 28px;
+    border: 0px solid #ffffff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#download {
+    background-color: rgb(18, 238, 172);
+}
+
+#download:hover {
+    background-color: rgb(42, 240, 181);
+}
+
+
+/* Footer elements */
+
+.copyright {
+    text-align: center;
+}
+
+.site-footer {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.3);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+    display: none;
+}
+
+/* forward & Back buttons */
+.Back,
+.forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover,
+.forward:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption Info */
+.Info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Work numbering (1/3 etc) */
+.MessageInfo {
+    color: #f2f2f3;
+    font-size: 14px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    background-color: #acc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+    background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 2
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 2
+    }
+}

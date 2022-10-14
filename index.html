@@ -3,11 +3,11 @@
 <html>
 
 <head>
-    <title>Yggdrasil</title>
-    <script type="text/javascript" src="main.js"></script>
-    <link rel="shortcut icon" type="image/svg" href="yggdrasil_icon.svg" />
+    <title>Geoffery10</title>
+    <script type="text/javascript" src="/js/art_carousel.js"></script>
+    <link rel="shortcut icon" type="image/gif" href="images/geoffery_ink.gif" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <header>
 </header>
@@ -20,30 +20,84 @@
                     <div class="body">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="https://github.com/Geoffery10/minecraft-server/blob/main/images/Yggrasil_02_Round.png?raw=true" border="0">
+                                <img src="images/geoffery_ink.gif" border="0">
                             </a>
                         </div>
 
-                        <h1>Welcome to Yggdrasil</h1>
-                        <p>A survival PvE Community Server where friends can come together, build together, and survive together.</p>
-                        <p>Join us by using the IP below!</p>
-                        <button onclick="CopyToClipboard('serverip');return false;" class="buttons" id="play"><img src="https://raw.githubusercontent.com/Geoffery10/minecraft-server/9bf2d1b6439f3d09112ede10c4c90f46ba37c15e/images/copy.svg" border="0" class="button_icon" id="copy_icon"><span id="serverip">play.geoffery10.com</span></button>
+                        <h1>Geoffery10</h1>
+                        <p>Computer Scientist, Photographer, Graphic Designer, Social Media Manager, and Gamer.</p>
                         <br>
                         <span>
-                    <a href="rules.html"><div class="buttons" id="rules">Rules
-                    </div></a>
-                    <a href="http://mcmap.geoffery10.com:25568/" target="_blank"><div class="buttons" id="map">Map
-                    </div></a>
-                    <a href="https://discord.gg/Kfd4dVXX3Y" target="_blank"><div class="buttons" id="discord">
-                        <img src="https://raw.githubusercontent.com/Geoffery10/minecraft-server/9bf2d1b6439f3d09112ede10c4c90f46ba37c15e/images/discord_icon.svg" border="0" class="button_icon">Discord
-                    </div></a>
-                    <a href="mods.html" target="_blank"><div class="buttons" id="mods">Mods
-                    </div></a>
+                    <h1>Socials</h1>
+                    <!-- Social Media Links Here to be Opened in a New Tab -->
+                    <table>
+                        <row>
+                            <a href="https://github.com/Geoffery10" target="_blank"><div class="buttons" id="github">
+                            <img src="/images/icons/github.svg" border="0" class="button_icon">Github
+                            </div></a>
+                            <a href="https://www.instagram.com/geoffery10/" target="_blank"><div class="buttons" id="instagram">
+                            <img src="/images/icons/instagram.svg" border="0" class="button_icon">Instagram
+                            </div></a>
+                        </row>
+                        <row>
+                            <a href="https://discordapp.com/users/253710834553847808" target="_blank"><div class="buttons" id="discord">
+                            <img src="/images/icons/discord.svg" border="0" class="button_icon">Discord
+                            </div></a>
+                            <a href="https://twitter.com/geoffery10" target="_blank"><div class="buttons" id="twitter">
+                            <img src="/images/icons/twitter.svg" border="0" class="button_icon">Twitter
+                            </div></a>
+                        </row>
+                    </table>
+                    <h1>Shops</h1>
+                    <!-- Shop Links Here to be Opened in a New Tab -->
+                    <table>
+                        <row>
+                            <a href="https://geoffery10.booth.pm/" target="_blank"><div class="buttons" id="booth">Digital
+                            </div></a>
+                            <a href="https://www.redbubble.com/people/Geoffery10/shop" target="_blank"><div class="buttons" id="redbubble">Art & Clothes
+                            </div></a>
+                        </row>
+                    </table>
+
                 </span>
                     </div>
                 </div>
+                <!-- Art Spotlight -->
                 <div class="column right">
-                    <iframe src="https://discord.com/widget?id=779429002657792020&theme=dark" width="350" height="560" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container fade">
+
+                    <!-- Full images with numbers and message Info -->
+                    <div class="Containers">
+                        <div class="MessageInfo">1 / 3</div>
+                        <img src="images/art/4th of July Art (1080).jpg" style="width:100%">
+                        <div class="Info"></div>
+                    </div>
+
+                    <div class="Containers">
+                        <div class="MessageInfo">2 / 3</div>
+                        <img src="images/art/Anime Beach Slime Girl (1080).jpg" style="width:100%">
+                        <div class="Info"></div>
+                    </div>
+
+                    <div class="Containers">
+                        <div class="MessageInfo">3 / 3</div>
+                        <img src="images/art/Anime Sith 01 (1080).jpg" style="width:100%">
+                        <div class="Info"></div>
+                    </div>
+
+                    <!-- Back and forward buttons -->
+                    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!-- The circles/dots -->
+                    <div style="text-align:center">
+                    <span class="dots" onclick="currentSlide(1)"></span>
+                    <span class="dots" onclick="currentSlide(2)"></span>
+                    <span class="dots" onclick="currentSlide(3)"></span>
+                    </div> 
 
                 </div>
             </div>
