@@ -24,9 +24,9 @@ $(document).ready(function(){
         $("#supported_games").html(games);
 
         // Get version of moddude
-        $.getJSON(data.Game[0]['Mod URL'], function(data_02) {
+        $.getJSON(data.Games[0]['Mod URL'], function(data_02) {
             console.log(data_02);
-            
+            $("#moddude_download").html("Download! v" + data_02['CURRENT_VERSION']);
         });
     });
     
