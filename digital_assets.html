@@ -2,11 +2,14 @@
 <html>
 
 <head>
-    <title>Yggdrasil - Mods</title>
-    <script type="text/javascript" src="main.js"></script>
-    <link rel="shortcut icon" type="image/svg" href="../images/yggdrasil_icon.svg" />
+    <title>Digital Assets</title>
+    <script type="text/javascript" src="minecraft/main.js"></script>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/minecraft_online.js"></script>
+    <script src="js/moddude.js"></script>
+    <link rel="shortcut icon" type="image/svg" href="/images/Geoffery-Pilgrim-Round.gif" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/yggdrasil_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <header>
 
@@ -18,19 +21,59 @@
             <div class="row">
                 <div class="column center">
                     <div class="body">
-                        <div class="logo">
-                            <a href="../minecraft.html">
-                                <img src="https://github.com/Geoffery10/minecraft-server/blob/main/images/Yggrasil_02_Round.png?raw=true" border="0">
-                            </a>
-                        </div>
-                        <h1>Yggdrasil's Mods</h1>
                         <div class="mods">
                             <table>
                                 <tr>
                                     <th>
+                                    <div class="logo_smaller">
+                                        <a href="index.html">
+                                            <img src="/images/Geoffery-Pilgrim-Round.gif" border="0">
+                                        </a>
+                                    </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <br>
+                                        <h1>Games and More!</h1>
+                                        <h3>Game projects and servers owned and developed by me.</h3>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table class="minecraft_table">
+                                <tr><th>
+                                        <div class="logo_smaller">
+                                        <a href="minecraft.html">
+                                            <img src="/images/Yggrasil_02_Round.png" border="0">
+                                        </a>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <h1>Yggdrasil</h1>
+                                        <h1 id="minecraft_online">Checking if Server is Online</h1>
+                                        <h3>Minecraft Server!</h3>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a href="minecraft.html">
+                                            <div class="buttons" id="download">JOIN NOW!
+                                            </div>
+                                        </a>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th>
                                         <h1>ModDude! Mod Manager</h1>
+                                        <h3>This is a simple to use mod manager to help with installing mod packs made by me.</h3>
+                                        <h3>Supported Games:</h3>
+                                        <h3 id="supported_games">Loading..</h3>
                                         <a href="https://github.com/Geoffery10/ModDude/releases/download/v1.0.6/ModDude.exe" target="_blank">
-                                            <div class="buttons" id="download">Download!
+                                            <div class="buttons" id="download"><div id="moddude_download">Download!</div>
                                             </div>
                                         </a>
                                     </th>
@@ -44,37 +87,9 @@
                                     </th>
                                 </tr>
                             </table>
-                            <table>
-                                <tr>
-                                    <th>
-                                        <h1>Packs Available Through ModDude!</h1>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        <h2>Download through ModDude! recommended.</h2>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        <a href="https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases" target="_blank">
-                                            <div class="buttons" id="download">Yggdrasil Modded
-                                            </div>
-                                        </a>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        <a href="https://github.com/Geoffery10/Yggdrasil-Mods/releases" target="_blank">
-                                            <div class="buttons" id="download">Yggdrasil Vanilla
-                                            </div>
-                                        </a>
-                                    </th>
-                                </tr>
-                            </table>
                         </div>
                         <span>
-                            <a href="../minecraft.html"><div class="buttons" id="back">Back
+                            <a href="index.html"><div class="buttons" id="back">Back
                             </div></a>
                         </span>
                     </div>
