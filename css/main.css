@@ -192,6 +192,13 @@ button {
     margin-left: 0.5em;
 }
 
+.socials {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 1vw;
+    min-width: 100px;
+}
+
 .buttons-social {
     background-color: rgba(0, 0, 0, 1);
     border-radius: 28px;
@@ -202,7 +209,7 @@ button {
     font-size: 18px;
     padding: 16px 20px;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-right: 0.5em; 
     margin-left: 0.5em;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
