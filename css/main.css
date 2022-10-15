@@ -192,6 +192,28 @@ button {
     margin-left: 0.5em;
 }
 
+.buttons-social {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 28px;
+    border: 0px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 0.5em; 
+    margin-left: 0.5em;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
+}
+
+.social-icon {
+    height: 1.0em;
+    vertical-align: middle;
+    width: 1.0em;
+}
+
 @media screen and (max-width: 800px) {
     .buttons {
         font-size: 4vw;
