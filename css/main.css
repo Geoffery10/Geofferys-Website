@@ -332,6 +332,14 @@ button {
     background-position: center;
 }
 
+#vr-assets {
+    padding-top: 170px;
+    background-image: url("/images/Sakura-01.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
 #download {
     background-color: rgb(16, 204, 148);
 }
