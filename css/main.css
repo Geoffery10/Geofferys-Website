@@ -35,6 +35,28 @@ body {
     border-radius: 25px;
 }
 
+.block {
+    background-color: rgba(0, 0, 0, 0.267);
+    text-align: center;
+    width: 100%;
+    border-radius: 28px;
+    border: 0px solid #ffffff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: large;
+}
+
+#centered-img {
+    margin: auto;
+    display: block;
+    border-radius: 28px;
+
+}
+
 .logo img {
     width: 70%;
 }
@@ -190,6 +212,7 @@ button {
     min-width: 100px;
     margin-right: 0.5em;
     margin-left: 0.5em;
+    text-shadow: none;
 }
 
 .socials {
@@ -359,6 +382,15 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.vrchat_table {
+    background-image: url("/images/vrchat_screenshot_banner_01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: #000000 0px 0px 0.5em;
+    color: #ffffff;
 }
 
 #vr-assets {

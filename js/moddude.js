@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.getJSON('games.json', function(data) {
+    $.getJSON('../games.json', function(data) {
         console.log(data.Games);
         // Loop through the games in the json file and add them to a string (add "and" to the end)
         var games = "";
@@ -25,7 +25,7 @@ $(document).ready(function(){
     });
 
     // Get version of moddude
-    $.getJSON('mods.json', function(data_02) {
+    $.getJSON('../mods.json', function(data_02) {
         console.log(data_02);
         $("#moddude_download").html("Download! v" + data_02['CURRENT_VERSION']);
     });
