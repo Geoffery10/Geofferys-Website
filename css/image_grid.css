@@ -156,7 +156,6 @@ img {
     position: relative;
     flex: 1 0 22rem;
     color: #fff;
-    cursor: pointer;
 }
 
 .gallery-item img {
