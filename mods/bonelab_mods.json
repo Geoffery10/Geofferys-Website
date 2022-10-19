@@ -10,23 +10,31 @@
             "GAME_VERSION": "1.0.0",
             "MOD_LOADER": "",
             "MOD_LOADER_VERSION": "",
-            "PACK_VERSION": "1.0.0",
+            "PACK_VERSION": "4.0.0",
             "PACK_URLS": [
-                "https://github.com/Geoffery10/Geofferys-Website/releases/download/Bonelab/VRChat.Avatars.zip"
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.DeathStarChan.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.Sakura.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.Kuru.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.Kul3sjrgort.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.CD33.zip"
             ],
             "BANNER_URL": "",
             "RECOMMEND_RAM": 0,
-            "MODS": []
+            "MODS": ["Sakura", "Death Star-Chan", "Kuru", "Kul3sjrgort", "CD33"]
         },
         {
             "GAME": "Bonelab",
-            "PACK_NAME": "Multiplayer Pack",
+            "PACK_NAME": "Multiplayer Pack (All in One)",
             "GAME_VERSION": "1.0.0",
             "MOD_LOADER": "MelonLoader",
             "MOD_LOADER_VERSION": "",
             "PACK_VERSION": "1.0.0",
             "PACK_URLS": [
-                "https://github.com/Geoffery10/Geofferys-Website/releases/download/Bonelab/VRChat.Avatars.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.DeathStarChan.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.Sakura.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.Kuru.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.Kul3sjrgort.zip",
+                "https://github.com/Geoffery10/BL-VRChat-Avatars/releases/download/v4.0.0/Geoffery10.CD33.zip",
                 "https://github.com/Geoffery10/Geofferys-Website/releases/download/Bonelab/Mods_01.zip",
                 "https://github.com/Geoffery10/Geofferys-Website/releases/download/Bonelab/Mods_02.zip",
                 "https://github.com/Geoffery10/Geofferys-Website/releases/download/Bonelab/Mods_03.zip",
@@ -42,7 +50,7 @@
         },
         {
             "GAME": "Bonelab",
-            "PACK_NAME": "Multiplayer (No Mods)",
+            "PACK_NAME": "Multiplayer (No Extra Mods)",
             "GAME_VERSION": "1.0.0",
             "MOD_LOADER": "MelonLoader",
             "MOD_LOADER_VERSION": "",
