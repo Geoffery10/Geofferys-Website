@@ -22,7 +22,8 @@
             "BANNER_URL": "https://www.geoffery10.com/mods/pack_images/bonelab/VRChat_Avatars_01.png",
             "RECOMMEND_RAM": 0,
             "PACK_SIZE": 233.42,
-            "MODS": ["Sakura", "Death Star-Chan", "Kuru", "Kul3sjrgort", "CD33"]
+            "MODS": ["Sakura", "Death Star-Chan", "Kuru", "Kul3sjrgort", "CD33"],
+            "MOD_COUNT": 4
         },
         {
             "GAME": "Bonelab",
@@ -50,7 +51,8 @@
             "BANNER_URL": "https://gcdn.thunderstore.io/live/repository/icons/notnotnotswipez-Bonelab_Multiplayer_Mockup-2.0.2.png.128x128_q95.jpg",
             "RECOMMEND_RAM": 0,
             "PACK_SIZE": 4973.92,
-            "MODS": []
+            "MODS": [],
+            "MOD_COUNT": 79
         },
         {
             "GAME": "Bonelab",
@@ -66,7 +68,8 @@
             "BANNER_URL": "https://gcdn.thunderstore.io/live/repository/icons/notnotnotswipez-Bonelab_Multiplayer_Mockup-2.0.2.png.128x128_q95.jpg",
             "RECOMMEND_RAM": 0,
             "PACK_SIZE": 54.3,
-            "MODS": []
+            "MODS": ["BonelabMultiplayerMockup", "BoneLib", "DynamicBones_MelonLoader", "MenuSkipper", "MelonLoader"],
+            "MOD_COUNT": 5
         }
     ]
 }
