@@ -4,6 +4,7 @@
     "PACKS": [{
             "GAME": "Minecraft",
             "PACK_NAME": "Yggdrasil Modded (Recommended)",
+            "PACK_DESCRIPTION": "The current official recommended version of the Yggdrasil Modded pack.",
             "GAME_VERSION": "1.19.2",
             "MOD_LOADER": "FABRIC",
             "MOD_LOADER_VERSION": "0.14.9",
@@ -27,6 +28,7 @@
             ],
             "BANNER_URL": "https://www.geoffery10.com/mod-packs/yggdrasil-banner.json",
             "RECOMMEND_RAM": 4,
+            "PACK_SIZE": 0.0,
             "MODS": ["AdditionalAdditions-5.0.2.jar", 
 "AdditionalStructures-1.19.x-(v.4.1.0).jar",
 "Adorn-3.6.1+1.19-fabric.jar",
@@ -207,6 +209,7 @@
         {
             "GAME": "Minecraft",
             "PACK_NAME": "Yggdrasil Vanilla",
+            "PACK_DESCRIPTION": "A vanilla Minecraft experience with a few tweaks. This is supported by the Yggdrasil team.",
             "GAME_VERSION": "1.18.1",
             "MOD_LOADER": "FORGE",
             "MOD_LOADER_VERSION": "39.0.7",
@@ -217,12 +220,14 @@
             ],
             "BANNER_URL": "https://github.com/Geoffery10/minecraft-server/blob/main/images/Yggrasil_02_Round.png",
             "RECOMMEND_RAM": 2,
+            "PACK_SIZE": 0.0,
             "MODS": []
         }
     ],
     "PACKS-COMING-SOON": [{
         "GAME": "Minecraft",
         "PACK_NAME": "Yggdrasil Shaders",
+        "PACK_DESCRIPTION": "The official shaders for the Yggdrasil server.",
         "GAME_VERSION": "1.19.2",
         "MOD_LOADER": "",
         "MOD_LOADER_VERSION": "",
@@ -230,6 +235,7 @@
         "PACK_URLS": ["https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.1/shaderpacks.zip"],
         "BANNER_URL": "https://www.geoffery10.com/mod-packs/yggdrasil-banner.json",
         "RECOMMEND_RAM": 2,
+        "PACK_SIZE": 0.0,
         "MODS": []
     }]
 }
