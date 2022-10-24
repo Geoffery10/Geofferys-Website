@@ -26,7 +26,7 @@
                 "https://github.com/Geoffery10/Yggdrasil-Modded-Mod-Pack/releases/download/1.0.2/shaderpacks.zip",
                 "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.exe"
             ],
-            "BANNER_URL": "",
+            "BANNER_URL": "https://www.geoffery10.com/mods/pack_images/minecraft/yggdrasil.png",
             "RECOMMEND_RAM": 4,
             "PACK_SIZE": 0.0,
             "MODS": ["AdditionalAdditions-5.0.2.jar", 
@@ -219,7 +219,7 @@
                 "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/forge-1.18.1-39.0.7-installer.jar",
                 "https://github.com/Geoffery10/Yggdrasil-Mods/releases/download/v1.1/Yggdrasil.Cape.png"
             ],
-            "BANNER_URL": "",
+            "BANNER_URL": "https://www.geoffery10.com/mods/pack_images/minecraft/yggdrasil.png",
             "RECOMMEND_RAM": 2,
             "PACK_SIZE": 0.0,
             "MODS": [],
