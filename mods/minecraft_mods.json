@@ -3,7 +3,7 @@
     "CURRENT_VERSION": "1.1.0",
     "PACKS": [{
             "GAME": "Minecraft",
-            "PACK_NAME": "Yggdrasil Modded (Recommended)",
+            "PACK_NAME": "Yggdrasil Modded",
             "PACK_DESCRIPTION": "The current official recommended version of the Yggdrasil Modded pack.",
             "GAME_VERSION": "1.19.2",
             "MOD_LOADER": "FABRIC",
