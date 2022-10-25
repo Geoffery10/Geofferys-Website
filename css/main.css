@@ -384,6 +384,14 @@ button {
     background-position: center;
 }
 
+.mjolnir_table {
+    background: rgba(0, 0, 0, 0.856) url("/images/mjolnir_background_01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
 .vrchat_table {
     background-image: url("/images/vrchat_screenshot_banner_01.png");
     background-size: cover;
@@ -391,6 +399,18 @@ button {
     background-position: center;
     text-shadow: #000000 0px 0px 0.5em;
     color: #ffffff;
+}
+
+table h1 {
+    text-shadow: 2px 2px #00000080;
+}
+
+table h2 {
+    text-shadow: 2px 2px #00000080;
+}
+
+table h3 {
+    text-shadow: 2px 2px #00000080;
 }
 
 #vr-assets {
