@@ -87,28 +87,26 @@ body {
 .left {
     margin-top: 1%;
     width: 40%;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
-    .left {
-        width: 85%;
-    }
-}
-
 .center {
     width: 90%;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
     justify-content: center;
 }
 
 .right {
     width: 45%;
+    height: inherit;
+    margin-left: inherit;
+    margin-right: 5%;
+    margin-top: 1%;
 }
 
 .right iframe {
@@ -118,16 +116,15 @@ body {
 
 @media screen and (max-width: 800px) {
     .right {
-        width: 95%;
+        width: 90%;
         margin-left: 5%;
+        margin-right: 5%;
     }
-}
 
-@media screen and (max-width: 800px) {
-    .right iframe {
-        margin-left: auto;
-        margin-right: auto;
-        width: inherit;
+    .left {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
