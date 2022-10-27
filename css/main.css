@@ -22,7 +22,6 @@ body {
     padding: 1vh;
 }
 
-
 /* Center pane elements */
 
 .content {
@@ -54,7 +53,6 @@ body {
     margin: auto;
     display: block;
     border-radius: 28px;
-
 }
 
 .logo img {
@@ -430,6 +428,15 @@ table h3 {
 table li {
     text-align: left;
     padding-bottom: 12px;
+}
+
+#table_image {
+    width: 100%;
+    height: auto;
+    border-radius: 28px;
+    border: 0px solid #ffffff;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 ul img {
