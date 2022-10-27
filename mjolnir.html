@@ -20,6 +20,7 @@
     <link rel="shortcut icon" type="image/svg" href="/images/mjolnir_icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/tabbed_images.css">
 </head>
 <header>
 
@@ -66,12 +67,37 @@
                             <table>
                                 <tr>
                                     <th>
-                                        <h1>Screenshot</h1>
+                                        <h1>Screenshots</h1>
                                     </th>
                                 </tr>
                                 <tr>
                                     <th>
-                                        <img id="table_image" src="images/mjolnir_screenshot.png">
+                                        <!-- The expanding image container -->
+                                        <div class="row_tabbed">
+                                            <div class="column_tabbed">
+                                                <img src="images/mjolnir_screenshot.png" alt="Main" style="width:100%; border-radius: 5%;" onclick="expand_image(this);">
+                                            </div>
+                                            <div class="column_tabbed">
+                                                <img src="images/mjolnir_screenshot_bonelab.png" alt="Modpack Selector " style="width:100%; border-radius: 5%;" onclick="expand_image(this);">
+                                            </div>
+                                        </div>
+                                        <div class="container_tabbed">
+                                            <!-- Close the image -->
+                                            <span onclick="this.parentElement.style.display='none'" class="closebtn_tabbed">&times;</span>
+
+                                            <!-- Expanded image -->
+                                            <img id="expandedImg_tabbed" style="width:100%; border-radius: 28px;" src="images/mjolnir_screenshot.png">
+                                        </div>
+                                        <script>
+                                            function expand_image(imgs) {
+                                                // Get the expanded image
+                                                var expandImg = document.getElementById("expandedImg_tabbed");
+                                                // Use the same src in the expanded image as the image being clicked on from the grid
+                                                expandImg.src = imgs.src;
+                                                // Show the container element (hidden with CSS)
+                                                expandImg.parentElement.style.display = "block";
+                                            }
+                                        </script>
                                     </th>
                                 </tr>
                             </table>
