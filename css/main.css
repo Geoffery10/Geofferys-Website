@@ -442,10 +442,13 @@ table li {
 ul img {
     padding-top: 12px;
     padding-bottom: 12px;
+    width: 100%;
+    height: auto;
 }
 
 ul {
     padding-top: 12px;
+    padding-right: 28px;
 }
 
 h3 a {
