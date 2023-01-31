@@ -4,7 +4,7 @@
     "PACKS": [{
             "GAME": "Minecraft",
             "PACK_NAME": "Yggdrasil (All the Mods 8)",
-            "PACK_DESCRIPTION": "The current official recommended version of the Yggdrasil Modded pack.",
+            "PACK_DESCRIPTION": "The current official recommended version of the Yggdrasil Modded pack. Based on All the Mods 8.",
             "GAME_VERSION": "1.19.2",
             "MOD_LOADER": "FORGE",
             "MOD_LOADER_VERSION": "43.2.3",
@@ -568,7 +568,7 @@
         },
         {
             "GAME": "Minecraft",
-            "PACK_NAME": "Yggdrasil Vanilla",
+            "PACK_NAME": "Yggdrasil Vanilla (1.18.1)",
             "PACK_DESCRIPTION": "A vanilla Minecraft experience with a few tweaks. This is supported by the Yggdrasil team.",
             "GAME_VERSION": "1.18.1",
             "MOD_LOADER": "FORGE",
