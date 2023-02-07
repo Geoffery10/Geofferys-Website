@@ -25,8 +25,10 @@ $(document).ready(function(){
     });
 
     // Get version of moddude
+    /*
     $.getJSON('../mods.json', function(data_02) {
         console.log(data_02);
-        $("#moddude_download").html("Download! v" + data_02['CURRENT_VERSION']);
+        $("#moddude_download").html("Download! v" + data_02['CURRENT_VERSION'] + " (Latest)");
     });
+    */
 });
