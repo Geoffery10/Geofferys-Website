@@ -97,7 +97,6 @@ body {
 
 /* Clear floats after the columns */
 
-
 .row:after {
     content: "";
     display: table;
@@ -147,13 +146,20 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    .left {
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .right {
         width: 90%;
+        margin-top: 1%;
         margin-left: 5%;
         margin-right: 5%;
     }
 }
-
 
 /* Body elements */
 
