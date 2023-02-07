@@ -442,6 +442,23 @@ table li {
     padding-bottom: 0px;
 }
 
+#supported_games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#game_cover {
+    display: none;
+    max-width: 100%;
+}
+
+#no_image_text {
+    display: none;
+    text-align: center;
+}
+
 ul img {
     padding-top: 12px;
     padding-bottom: 12px;
