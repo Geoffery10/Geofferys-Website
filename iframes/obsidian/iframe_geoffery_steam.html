@@ -5,6 +5,11 @@
         <link rel="shortcut icon" type="image/gif"
             href="images/Geoffery-Pilgrim-Round.gif" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Atkinson Hyperlegible', sans-serif;
+            }
+        </style>
     </head>
     <header>
     </header>
@@ -29,5 +34,16 @@
             style="background-color: #3498db; color: #fff; padding: 10px 15px; border: none; cursor: pointer;">Copy
             Friend Code 📋</button>
 
+        <script> 
+            function copyToClipboard(text) 
+            { 
+                var dummyTextarea = document.createElement('textarea'); 
+                dummyTextarea.value = text; 
+                document.body.appendChild(dummyTextarea); 
+                dummyTextarea.select(); document.execCommand('copy'); 
+                document.body.removeChild(dummyTextarea); 
+                alert('Friend Code copied to clipboard: ' + text); 
+            } 
+        </script>
     </div>
 </html>
