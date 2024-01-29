@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC>
+<html>
+    <head>
+        <title>Geoffery10</title>
+        <link rel="shortcut icon" type="image/gif"
+            href="images/Geoffery-Pilgrim-Round.gif" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Atkinson Hyperlegible', sans-serif;
+            }
+        </style>
+    </head>
+    <header>
+    </header>
+    <div
+        style="background-image: url('https://i.postimg.cc/FR8rGyPG/totk-bg.png'); background-size: cover; background-position: bottom; text-align: center; padding: 20px; color: #fff;">
+
+        <img
+            src='https://i.postimg.cc/vZsmpvGN/yRflmV1.gif' alt="PFP"
+            style="width: 120px; height: 120px; border-radius: 50%;">
+
+        <h2 style="color: #fff;">Nintendo</h2>
+
+        <ul style="list-style: none; padding: 0;">
+            <li><strong>Friend code:</strong> SW-6591-5010-0158</li>
+        </ul>
+
+        <button onclick="copyToClipboard('SW-6591-5010-0158')"
+            style="background-color: #E60012; color: #fff; padding: 10px 15px; border: none; cursor: pointer; margin-bottom: 20px;">Copy
+            Friend Code 📋</button>
+
+        <script> 
+            function copyToClipboard(text) 
+            { 
+                var dummyTextarea = document.createElement('textarea'); 
+                dummyTextarea.value = text; 
+                document.body.appendChild(dummyTextarea); 
+                dummyTextarea.select(); document.execCommand('copy'); 
+                document.body.removeChild(dummyTextarea); 
+                alert('Friend Code copied to clipboard: ' + text); 
+            } 
+        </script>
+    </div>
+</html>
