@@ -16,6 +16,7 @@
     <link rel="shortcut icon" type="image/gif" href="images/Geoffery-Pilgrim-Round.gif" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="/js/slideshow.js" defer></script>
 </head>
 <header>
 </header>
@@ -32,7 +33,7 @@
                             </a>
                         </div>
                         <h1>Geoffery10</h1>
-                        <p>Computer Scientist, Photographer, Graphic Designer, Social Media Manager, and Gamer.</p>
+                        <p>Computer Scientist, Photographer, Graphic Designer, AI Researcher, and Gamer.</p>
                         <h2>Featured Projects</h2>
                         <div class="geoffery-info-table">
                                 <a href="/store.html"><div class="buttons" id="redbubble">
@@ -69,43 +70,55 @@
                     <div class="slideshow-container">
                         <!-- Full-width images with number and caption text -->
                         <div class="mySlides fade">
-                            <img src="images/art/1990's Space Elf (1080).jpg" style="width:100%">
+                            <img src="images/art/Winter-Pilgrim-City-Large.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Elf Mia (1080).jpg" style="width:100%">
+                            <img src="images/art/Tokyo Sakura Pilgrim Cup.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Severa (Disgaea) (1080).jpg" style="width:100%">
+                            <img src="images/art/Ansa Pilgrim.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Majora's Mask Girl (1080).jpg" style="width:100%">
+                            <img src="images/art/Cat Girl Monochrome.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/4th of July Art (1080).jpg" style="width:100%">
+                            <img src="images/art/Floral Girl.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Anime Sith 01 (1080).jpg" style="width:100%">
+                            <img src="images/art/Leticia.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Anime Sith Sadistic (1080).jpg" style="width:100%">
+                            <img src="images/art/Ocean Girl Painting.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Cyberpunk Girl (1080).jpg" style="width:100%">
+                            <img src="images/art/Sakura Cyberpunk Katana.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Hawaiian Anime Girl (1080).jpg" style="width:100%">
+                            <img src="images/art/Rae.webp" style="width:100%">
                         </div>
 
                         <div class="mySlides fade">
-                            <img src="images/art/Terry The Programmer Trap (1080).jpg" style="width:100%">
+                            <img src="images/art/Sakura Frog Sweater.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/art/SpaceSakuraInkSpace.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/art/Sweater On Bed Sakura.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/art/Yuki Ink.webp" style="width:100%">
                         </div>
                         <!-- Next and previous buttons -->
                         <!-- CURRENTLY DISABLED
@@ -125,61 +138,15 @@
                             <span class="dot" onclick="currentSlide(8)"></span>
                             <span class="dot" onclick="currentSlide(9)"></span>
                             <span class="dot" onclick="currentSlide(10)"></span>
+                            <span class="dot" onclick="currentSlide(11)"></span>
+                            <span class="dot" onclick="currentSlide(12)"></span>
+                            <span class="dot" onclick="currentSlide(13)"></span>
                         </div>
                     </div>
-
-                    <script>
-                        let slideIndex = 0;
-                        showSlides();
-
-                        function plusSlides(n) {
-                            slideIndex = slideIndex + n;
-                            showSlide();
-                        }
-
-                        function currentSlide(n) {
-                            slideIndex = n - 1;
-                            showSlide();
-                        }
-
-                        function showSlide() {
-                            let i;
-                            let slides = document.getElementsByClassName("mySlides");
-                            let dots = document.getElementsByClassName("dot");
-                            for (i = 0; i < slides.length; i++) {
-                                slides[i].style.display = "none";  
-                            }
-                            slideIndex++;
-                            if (slideIndex > slides.length) {slideIndex = 1}    
-                            for (i = 0; i < dots.length; i++) {
-                                dots[i].className = dots[i].className.replace(" active", "");
-                            }
-                            slides[slideIndex-1].style.display = "block";  
-                            dots[slideIndex-1].className += " active";
-                            showSlides();
-                        }
-
-                        function showSlides() {
-                            let i;
-                            let slides = document.getElementsByClassName("mySlides");
-                            let dots = document.getElementsByClassName("dot");
-                            for (i = 0; i < slides.length; i++) {
-                                slides[i].style.display = "none";  
-                            }
-                            slideIndex++;
-                            if (slideIndex > slides.length) {slideIndex = 1}    
-                            for (i = 0; i < dots.length; i++) {
-                                dots[i].className = dots[i].className.replace(" active", "");
-                            }
-                            slides[slideIndex-1].style.display = "block";  
-                            dots[slideIndex-1].className += " active";
-                            setTimeout(showSlides, 5000); // Change image every 2 seconds
-                        }
-                    </script>
                 </div>
             </div>
             </div>
-            <p class="site-footer">&copy; Copyright 2023, <a href="index.html">Geoffery10</a></p>
+            <p class="site-footer">&copy; Copyright 2024, <a href="index.html">Geoffery10</a></p>
         </section>
     </main>
 
