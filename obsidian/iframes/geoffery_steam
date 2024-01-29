@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC>
+<html>
+    <div
+        style="background-image: url('https://i.imgur.com/BOPJsRh.png'); background-size: cover; background-position: bottom; text-align: center; padding: 20px;">
+
+        <img
+            src='https://avatars.cloudflare.steamstatic.com/490a69cabcc9a1d0570c8d98537b350ef62c2c83_full.jpg'
+            alt="PFP" style="width: 120px; height: 120px; border-radius: 50%;">
+
+        <h2 style="color: #fff;">Steam</h2>
+
+        <ul style="list-style: none; padding: 0;">
+            <li><strong>Username:</strong> <a
+                    href="https://steamcommunity.com/id/geoffery10/"
+                    style="color: #fff; text-decoration: none;">Geoffery10</a></li>
+            <li><strong>Friend code:</strong> 118883120</li>
+            <li><strong>Note:</strong> How I play most games</li>
+        </ul>
+
+        <button onclick="copyToClipboard('118883120')"
+            style="background-color: #3498db; color: #fff; padding: 10px 15px; border: none; cursor: pointer;">Copy
+            Friend Code 📋</button>
+
+    </div>
+</html>
