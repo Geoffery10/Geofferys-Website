@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team Timer ⏱</title>
+        <link rel="stylesheet" href="css/team-timer.css">
+        <style>
+            @font-face { font-family: GN-KillGothic-U-KanaNA; src: url('fonts/GN-KillGothic-U-KanaNA.ttf'); } 
+            @font-face { font-family: KozGoProRegular; src: url('fonts/KozGoProRegular.otf'); } 
+            @font-face { font-family: MOBO; src: url('fonts/MOBO.otf'); } 
+        </style>
+        <script src="js/api_call.js"></script>
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="content">
+            <div> <main>
+                    <center><h1>Staff Team Timer ⏱️</h1></center>
+                    <div class="content-body">
+                        <div class="card">
+                            <iframe src="https://cuckoo.team/somewhatcrazy"
+                                style="border:0px #ffffff none; border-radius: 30px;"
+                                name="cuckoo"
+                                scrolling="no" frameborder="0"
+                                marginheight="0px" marginwidth="0px"
+                                height="600px" width="100%"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card">
+                            <br>
+                            <meta charset="UTF-8"> <meta name="viewport"
+                                content="width=device-width, initial-scale=1.0">
+                            <title>Randomized Ordered List</title>
+                            <style> /* Inline CSS for styling */ body { font-family: Arial, sans-serif; } #randomizedList { list-style-type: none; padding: 0; } #randomizedList li { margin: 5px; padding: 10px; border: 1px solid #ccc; background-color: #f0f0f0; border-radius: 5px; } #shuffleButton { margin-top: 10px; padding: 10px; background-color: #4caf50; color: white; border: none; border-radius: 5px; cursor: pointer; } </style>
+                            <h2 id="header">Shuffled List</h2><ol
+                                id="randomizedList">
+                                <li>Geoffery</li><li>J</li><li>Anthony</li><li>Jeremy</li><li>Dave</li></ol>
+                            <button id="shuffleButton" onclick="shuffleList()"
+                                style="background-color: rgb(116, 192, 195); color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 5px; cursor: pointer; visibility: hidden;"
+                                disabled>Shuffle
+                                List</button><script> function shuffleList() { var list = document.getElementById("randomizedList"); var header = document.getElementById("header"); var shuffleButton = document.getElementById("shuffleButton"); var currentDate = new Date().toDateString(); var seed = 0; for (var i = 0; i < currentDate.length; i++) { seed += currentDate.charCodeAt(i); } for (var i = list.children.length; i >= 0; i--) { seed = (seed * 9301 + 49297) % 233280; var randomIndex = Math.floor(seed / 233280 * i); list.appendChild(list.children[randomIndex]); header.textContent = "Shuffled List"; } shuffleButton.disabled = true; shuffleButton.style.visibility&nbsp;=&nbsp;"hidden"; } </script>
+                        </div>
+                        <div class="card">
+                                <h2>How to use</h2>
+                            <p><strong>Shuffle List</strong>: Click the
+                                "Shuffle List" button to generate a new
+                                randomized list for the day. 🔁</p>
+                            <ul>
+                                <li>The list should be seeded for each day,
+                                    ensuring that it remains the same every time
+                                    it's shuffled on that day. Make sure to
+                                    click "Shuffle List" to get the daily
+                                    shuffle.</li>
+                            </ul>
+                            <h3>What if someone is missing from the list?</h3>
+                            <p><s>They must make up any missed time even if on
+                                    PTO or out sick.</s> If someone is missing
+                                from the list, simply skip them. They missed
+                                their chance to be the typist for the day. Next
+                                time they'll know not to miss the
+                                excitement!</p>
+                            </div>
+                            <div class="card">
+                            <h3>What if I want to listen to some rad jams with
+                                my team?</h3>
+                            <p>Put in a username and you can add tracks to the
+                                playlist from YouTube.</p>
+                            <p><button
+                                    onclick="window.open('https://w2g.tv/?r=7go87essxw3vzjcayf', '_blank')"
+                                    style="background-color: #a878ff; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 5px; cursor: pointer;">
+                                    🎵 Music Watch2Gether 🎵 </button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <center><p><strong>Go Staff Team!!! 🐬</strong></p></center>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,186 @@
+@font-face { font-family: GN-KillGothic-U-KanaNA; src: url('fonts/GN-KillGothic-U-KanaNA.ttf'); } 
+@font-face { font-family: KozGoProRegular; src: url('fonts/KozGoProRegular.otf'); } 
+@font-face { font-family: MOBO; src: url('fonts/MOBO.otf'); } 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    color: #7f9af5;
+}
+
+a {
+    color: #7f9af5;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images7.alphacoders.com/133/1337527.png');
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 100%;
+    margin: 100px auto; 
+    z-index: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        margin: 20px 0px;
+        max-width: 85%;
+        margin: 10px auto; 
+    }
+}
+
+.content-body {
+    background-color: #505199;
+    width: fill;
+    margin: 0px -20px 0px -20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-card {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+h2 {
+    font-family: MOBO, Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color: #7f9af5;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+    font-size: 38px;
+    margin: 1vh;
+    text-align: center;
+}
+
+h3 {
+    font-family: MOBO, Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+    font-size: 18px;
+    margin: 1vh;
+}
+
+.leader {
+    font-family: KozGoProRegular, Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color: #7f9af5;
+    margin: auto;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+    font-size: 2vh;
+}
+
+ul {
+    width: auto;
+    text-align: left;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    border: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 0px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        max-width: 95%;
+        width: 95%;
+    }
+}
+
+
+.card p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 1vh;
+    line-height: 1.8;
+}
+
+.card h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 1vh;
+}
+
+.card hr {
+    margin: 0vw;
+    width: 90%;
+    color: #7f9af5;
+    border-style: none;
+    background-color: #7f9af5;
+    height: 0.25vh;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid #b1bcbd;
+}
+
+
+
+th {
+    padding: 3px;
+    text-align: left;
+}
+
+td {
+    padding: 2px;
+}
