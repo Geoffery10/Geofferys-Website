@@ -1,133 +1,116 @@
 <!DOCTYPE html PUBLIC>
 <html>
 
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async
-            src="https://www.googletagmanager.com/gtag/js?id=G-B0V5W3S230"></script>
-        <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0V5W3S230"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-B0V5W3S230');
+        gtag('config', 'G-B0V5W3S230');
     </script>
-        <title>Mjolnir Mod Manager</title>
-        <script type="text/javascript" src="minecraft/main.js"></script>
-        <script src="js/jquery-3.6.1.js"></script>
-        <script src="js/minecraft_online.js"></script>
-        <script src="js/moddude.js"></script>
-        <script src="js/back.js"></script>
-        <link rel="shortcut icon" type="image/svg"
-            href="/images/mjolnir_icon.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/tabbed_images.css">
-    </head>
-    <header>
+    <title>Mjolnir Mod Manager</title>
+    <script type="text/javascript" src="minecraft/main.js"></script>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/minecraft_online.js"></script>
+    <script src="js/moddude.js"></script>
+    <script src="js/back.js"></script>
+    <link rel="shortcut icon" type="image/svg" href="/images/mjolnir_icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/tabbed_images.css">
+</head>
+<header>
 
-    </header>
+</header>
 
-    <body>
-        <main>
-            <section class="content">
-                <div class="row">
-                    <div class="column center">
-                        <div class="body">
-                            <div class="mods">
-                                <table class="mjolnir_table">
-                                    <tr>
-                                        <th>
-                                            <div class="logo">
-                                                <a href="mjolnir.html">
-                                                    <img
-                                                        src="/images/mjolnir_logo.png"
-                                                        border="0" alt="Mjolnir"
-                                                        width="100%"
-                                                        height="100%">
-                                                </a>
-                                            </div>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <h3>This is a simple to use mod
-                                                manager to help with installing
-                                                mod packs made by
-                                                Geoffery10.</h3>
-                                            <h3>Supported Games:</h3>
-                                            <!-- Display Covers of Supported Games -->
-                                            <div id="supported_games">
-                                                <img id="game_cover" src
-                                                    alt="Game Cover">
-                                            </div>
-                                            <a
-                                                href="https://github.com/Geoffery10/Mjolnir-Mod-Manager/releases/download/v2.0.0/Mjolnir_Mod_Manager.exe"
-                                                target="_blank">
-                                                <div class="buttons"
-                                                    id="download"><div
-                                                        id="moddude_download">Download!
-                                                        (Latest)</div>
-                                                </div>
+<body>
+    <main>
+        <section class="content">
+            <div class="row">
+                <div class="column center">
+                    <div class="body">
+                        <div class="mods">
+                            <table class="mjolnir_table">
+                                <tr>
+                                    <th>
+                                        <div class="logo">
+                                            <a href="mjolnir.html">
+                                                <img src="/images/mjolnir_logo.png" border="0" alt="Mjolnir"
+                                                    width="100%" height="100%">
                                             </a>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <a
-                                                href="https://github.com/Geoffery10/Mjolnir-Mod-Manager"
-                                                target="_blank">
-                                                <div class="buttons"
-                                                    id="download">Source Code
-                                                </div>
-                                            </a>
-                                        </th>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th>
-                                            <h1>Screenshots</h1>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <!-- The expanding image container -->
-                                            <div class="row_tabbed">
-                                                <div class="column_tabbed">
-                                                    <img
-                                                        src="images/mjolnir_screenshot.png"
-                                                        alt="Main"
-                                                        style="width:100%; border-radius: 5%;"
-                                                        onclick="expand_image(this);">
-                                                </div>
-                                                <div class="column_tabbed">
-                                                    <img
-                                                        src="images/mjolnir_screenshot_bonelab.png"
-                                                        alt="Modpack Selector BONELAB"
-                                                        style="width:100%; border-radius: 5%;"
-                                                        onclick="expand_image(this);">
-                                                </div>
-                                                <div class="column_tabbed">
-                                                    <img
-                                                        src="images/mjolnir_screenshot_minecraft.png"
-                                                        alt="Modpack Selector Minecraft"
-                                                        style="width:100%; border-radius: 5%;"
-                                                        onclick="expand_image(this);">
-                                                </div>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <h3>This is a simple to use mod
+                                            manager to help with installing
+                                            mod packs made by
+                                            Geoffery10.</h3>
+                                        <h3>Supported Games:</h3>
+                                        <!-- Display Covers of Supported Games -->
+                                        <div id="supported_games">
+                                            <img id="game_cover" src alt="Game Cover">
+                                        </div>
+                                        <a href="https://github.com/Geoffery10/Mjolnir-Mod-Manager/releases/download/v2.0.0/Mjolnir_Mod_Manager.exe"
+                                            target="_blank">
+                                            <div class="buttons" id="download">
+                                                <div id="moddude_download">Download!
+                                                    (Latest)</div>
                                             </div>
-                                            <div class="container_tabbed">
-                                                <!-- Close the image -->
-                                                <span
-                                                    onclick="this.parentElement.style.display='none'"
-                                                    class="closebtn_tabbed">&times;</span>
+                                        </a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a href="https://github.com/Geoffery10/Mjolnir-Mod-Manager" target="_blank">
+                                            <div class="buttons" id="download">Source Code
+                                            </div>
+                                        </a>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <h1>Screenshots</h1>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <!-- The expanding image container -->
+                                        <div class="row_tabbed">
+                                            <div class="column_tabbed">
+                                                <img src="images/mjolnir_screenshot.png" alt="Main"
+                                                    style="width:100%; border-radius: 5%;"
+                                                    onclick="expand_image(this);">
+                                            </div>
+                                            <div class="column_tabbed">
+                                                <img src="images/mjolnir_screenshot_bonelab.png"
+                                                    alt="Modpack Selector BONELAB"
+                                                    style="width:100%; border-radius: 5%;"
+                                                    onclick="expand_image(this);">
+                                            </div>
+                                            <div class="column_tabbed">
+                                                <img src="images/mjolnir_screenshot_minecraft.png"
+                                                    alt="Modpack Selector Minecraft"
+                                                    style="width:100%; border-radius: 5%;"
+                                                    onclick="expand_image(this);">
+                                            </div>
+                                        </div>
+                                        <div class="container_tabbed">
+                                            <!-- Close the image -->
+                                            <span onclick="this.parentElement.style.display='none'"
+                                                class="closebtn_tabbed">&times;</span>
 
-                                                <!-- Expanded image -->
-                                                <img id="expandedImg_tabbed"
-                                                    style="width:100%; border-radius: 28px;"
-                                                    src="images/mjolnir_screenshot.png">
-                                            </div>
-                                            <script>
+                                            <!-- Expanded image -->
+                                            <img id="expandedImg_tabbed" style="width:100%; border-radius: 28px;"
+                                                src="images/mjolnir_screenshot.png">
+                                        </div>
+                                        <script>
                                             function expand_image(imgs) {
                                                 // Get the expanded image
                                                 var expandImg = document.getElementById("expandedImg_tabbed");
@@ -137,155 +120,149 @@
                                                 expandImg.parentElement.style.display = "block";
                                             }
                                         </script>
-                                        </th>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th>
-                                            <h1>Installation Guide</h1>
-                                            <h3>
-                                                <ol>
-                                                    <li>Download the mod manager
-                                                        from the link
-                                                        above.</li>
-                                                    <li>Run the Mjolnir Mod
-                                                        Manager.exe</li>
-                                                    <li>Allow through virus
-                                                        protection if needed.
-                                                        (See Security Concerns
-                                                        for More Info)</li>
-                                                    <li>Select a Game to Mod
-                                                        from the List.</li>
-                                                    <li>Adjust settings in the
-                                                        top left settings gear
-                                                        if needed.</li>
-                                                    <li>Backup and or Delete Old
-                                                        Mods if Desired.</li>
-                                                    <li>Add Modpacks you'd like
-                                                        to install.</li>
-                                                    <li>Click Install Mods.</li>
-                                                </ol>
-                                            </h3>
-                                        </th>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th>
-                                            <h1>Reasons your install may have
-                                                failed</h1>
-                                            <h3>
-                                                <ul>
-                                                    <li>Blocked by Virus
-                                                        Protection - Most Common
-                                                        (See Security Concerns
-                                                        to understand why)
-                                                        <ul>
-                                                            <li>To bypass
-                                                                Windows Smart
-                                                                Screen Click
-                                                                "More Info" then
-                                                                "Run Anyway"</li>
-                                                        </ul>
-                                                        <img
-                                                            src="images/windows_smartscreen.png"
-                                                            border="0">
-                                                    </li>
-                                                    <li>Using and out of date
-                                                        version that can't
-                                                        connect to the newer
-                                                        servers. (Try
-                                                        downloading from the
-                                                        link above)</li>
-                                                </ul>
-                                            </h3>
-                                        </th>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th>
-                                            <h1>Security Concerns</h1>
-                                            <h3>
-                                                Due to how most modern virus
-                                                protections work this app is
-                                                likely to be flagged as
-                                                potentially dangerous. This is
-                                                for a few reasons which are
-                                                listed below.
-                                            </h3>
-                                            <h3>
-                                                <ul>
-                                                    <li>It is a new app that is
-                                                        not well known.</li>
-                                                    <li>It is a .exe file.</li>
-                                                    <li>It is not signed using a
-                                                        +$300/year security
-                                                        signature (AKA Security
-                                                        Paywall).</li>
-                                                </ul>
-                                            </h3>
-                                            <h3>
-                                                That being said this app is
-                                                completely safe to use and is
-                                                open source so you can see for
-                                                yourself using the Source Code
-                                                link above.
-                                            </h3>
-                                            <h3>
-                                                You can even run the original
-                                                python script if you want to see
-                                                the code that way.
-                                            </h3>
-                                        </th>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th>
-                                            <h1>Credits & License</h1>
-                                            <h3>
-                                                Mjolnir Mod Manager was created
-                                                by <a
-                                                    href="index.html">Geoffery10</a>.
-                                            </h3>
-                                            <h3>
-                                                Mjolnir Mod Manager is protected
-                                                under <a
-                                                    href="https://github.com/Geoffery10/ModDude/blob/main/LICENSE.md">GNU
-                                                    General Public License
-                                                    v3.0</a>
-                                            </h3>
-                                        </th>
-                                    </tr>
-                                </table>
-                            </div>
-                            <span>
-                                <a href="index.html"><div class="buttons"
-                                        id="about">
-                                        <img
-                                            src="/images/Geoffery-Pilgrim-Round.gif"
-                                            border="0" class="button_icon">About
-                                        Creator
-                                    </div></a>
-                                <a href="minecraft.html"><div class="buttons"
-                                        id="minecraft">
-                                        <img src="/images/yggdrasil_icon.svg"
-                                            border="0" class="button_icon">Check
-                                        out our Minecraft Server!
-                                    </div></a>
-                                <button id="back" value="Back"
-                                    onclick="history.go(-1)">Back</button>
-                            </span>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <h1>Installation Guide</h1>
+                                        <h3>
+                                            <ol>
+                                                <li>Download the mod manager
+                                                    from the link
+                                                    above.</li>
+                                                <li>Run the Mjolnir Mod
+                                                    Manager.exe</li>
+                                                <li>Allow through virus
+                                                    protection if needed.
+                                                    (See Security Concerns
+                                                    for More Info)</li>
+                                                <li>Select a Game to Mod
+                                                    from the List.</li>
+                                                <li>Adjust settings in the
+                                                    top left settings gear
+                                                    if needed.</li>
+                                                <li>Backup and or Delete Old
+                                                    Mods if Desired.</li>
+                                                <li>Add Modpacks you'd like
+                                                    to install.</li>
+                                                <li>Click Install Mods.</li>
+                                            </ol>
+                                        </h3>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <h1>Reasons your install may have
+                                            failed</h1>
+                                        <h3>
+                                            <ul>
+                                                <li>Blocked by Virus
+                                                    Protection - Most Common
+                                                    (See Security Concerns
+                                                    to understand why)
+                                                    <ul>
+                                                        <li>To bypass
+                                                            Windows Smart
+                                                            Screen Click
+                                                            "More Info" then
+                                                            "Run Anyway"</li>
+                                                    </ul>
+                                                    <img src="images/windows_smartscreen.png" border="0">
+                                                </li>
+                                                <li>Using and out of date
+                                                    version that can't
+                                                    connect to the newer
+                                                    servers. (Try
+                                                    downloading from the
+                                                    link above)</li>
+                                            </ul>
+                                        </h3>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <h1>Security Concerns</h1>
+                                        <h3>
+                                            Due to how most modern virus
+                                            protections work this app is
+                                            likely to be flagged as
+                                            potentially dangerous. This is
+                                            for a few reasons which are
+                                            listed below.
+                                        </h3>
+                                        <h3>
+                                            <ul>
+                                                <li>It is a new app that is
+                                                    not well known.</li>
+                                                <li>It is a .exe file.</li>
+                                                <li>It is not signed using a
+                                                    +$300/year security
+                                                    signature (AKA Security
+                                                    Paywall).</li>
+                                            </ul>
+                                        </h3>
+                                        <h3>
+                                            That being said this app is
+                                            completely safe to use and is
+                                            open source so you can see for
+                                            yourself using the Source Code
+                                            link above.
+                                        </h3>
+                                        <h3>
+                                            You can even run the original
+                                            python script if you want to see
+                                            the code that way.
+                                        </h3>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <h1>Credits & License</h1>
+                                        <h3>
+                                            Mjolnir Mod Manager was created
+                                            by <a href="index.html">Geoffery10</a>.
+                                        </h3>
+                                        <h3>
+                                            Mjolnir Mod Manager is protected
+                                            under <a
+                                                href="https://github.com/Geoffery10/ModDude/blob/main/LICENSE.md">GNU
+                                                General Public License
+                                                v3.0</a>
+                                        </h3>
+                                    </th>
+                                </tr>
+                            </table>
                         </div>
+                        <span>
+                            <a href="index.html">
+                                <div class="buttons" id="about">
+                                    <img src="/images/Geoffery-Pilgrim-Round.gif" border="0" class="button_icon">About
+                                    Creator
+                                </div>
+                            </a>
+                            <a href="minecraft.html">
+                                <div class="buttons" id="minecraft">
+                                    <img src="/images/yggdrasil_icon.svg" border="0" class="button_icon">Check
+                                    out our Minecraft Server!
+                                </div>
+                            </a>
+                            <button id="back" value="Back" onclick="history.go(-1)">Back</button>
+                        </span>
                     </div>
                 </div>
-                <p class="site-footer">&copy; Copyright 2024, <a
-                        href="index.html">Geoffery10</a></p>
-            </section>
-        </main>
+            </div>
+            <p class="site-footer">&copy; Copyright 2025, <a href="index.html">Geoffery10</a></p>
+        </section>
+    </main>
 
-    </body>
+</body>
 
 </html>
