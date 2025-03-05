@@ -255,6 +255,9 @@ button {
     height: 1.0em;
     vertical-align: middle;
     width: 1.0em;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 2px;
 }
 
 @media screen and (max-width: 800px) {
