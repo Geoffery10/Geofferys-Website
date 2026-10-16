@@ -73,8 +73,8 @@
 
                             <h2>2. What Google data the app requests, and why</h2>
                             <p>
-                                The app requests only two Google Calendar permissions when the account owner
-                                connects it:
+                                The app requests the following permissions when the account owner connects it.
+                                Each one exists to carry out a request the owner makes, and nothing else:
                             </p>
                             <ul>
                                 <li>
@@ -87,27 +87,48 @@
                                     can create, change, move, respond to, or delete <em>events</em> when the owner asks it
                                     to.
                                 </li>
+                                <li>
+                                    <strong>Read email</strong> (<code>gmail.readonly</code>) &mdash; so it can find and
+                                    summarise messages the owner asks about, such as locating a receipt or reading an
+                                    unread thread. The app <strong>cannot send, draft, label, archive, trash or delete
+                                    mail</strong>: it does not hold the permissions those actions require.
+                                </li>
+                                <li>
+                                    <strong>Manage files in Google Drive</strong> (<code>drive</code>) &mdash; so it can
+                                    find, read, download, create, rename, move, share and delete the owner's own files
+                                    and folders when asked. Deletions always require the owner's explicit confirmation
+                                    first (see section 7).
+                                </li>
+                                <li>
+                                    <strong>Read and edit Google Docs, Sheets and Slides</strong>
+                                    (<code>documents</code>, <code>spreadsheets</code>, <code>presentations</code>) &mdash; so it
+                                    can read the content of the owner's documents and change it at their request.
+                                </li>
                             </ul>
+                            <p>
+                                Google Tasks is reached through the owner's own separate automation, not through this
+                                credential.
+                            </p>
                             <p>
                                 It does <strong>not</strong> request permission to create, delete, rename, or change
                                 the sharing settings of a calendar. Those operations are outside the permissions
-                                granted and are technically unavailable to the app.
-                            </p>
-                            <p>
-                                It does not read Gmail, Drive, Contacts, Photos, or any other Google product.
-                                No data is collected about anyone other than the account owner.
+                                granted and are technically unavailable to the app. It does not read Google Contacts,
+                                Google Photos, or any other Google product, and no data is collected about anyone
+                                other than the account owner.
                             </p>
 
                             <h2>3. How Google data is used</h2>
                             <p>
-                                Calendar data is used for exactly two purposes, both initiated by the account owner:
+                                Google data is used for exactly two purposes, both initiated by the account owner:
                             </p>
                             <ul>
-                                <li>displaying the owner's own events back to the owner, in answer to a question;</li>
-                                <li>creating or modifying an event in the owner's own calendar at their request.</li>
+                                <li>reading the owner's own calendar events, email and files back to the owner, in
+                                    answer to a question;</li>
+                                <li>creating or modifying an event, document, spreadsheet, slide deck, folder or file
+                                    in the owner's own Google account, at their request.</li>
                             </ul>
                             <p>
-                                Calendar data is never used for advertising, profiling, credit or lending decisions,
+                                Google data is never used for advertising, profiling, credit or lending decisions,
                                 or any purpose unrelated to showing and editing the owner's schedule. No Google user
                                 data is used to train or improve artificial-intelligence models, by the operator or by anyone else.
                             </p>
@@ -125,8 +146,8 @@
                                 </li>
                                 <li>
                                     <strong>Write log.</strong> The app keeps a local plain-text log of <em>changes</em> it
-                                    makes (timestamp, action, which calendar, event identifier, event title) so the owner
-                                    can audit what was changed on their behalf. It contains no data belonging to anyone
+                                    makes (timestamp, action, which calendar or file, object identifier, object name) so the
+                                    owner can audit what was changed on their behalf. It contains no data belonging to anyone
                                     else and lives only on the owner's server. It can be deleted at any time on request.
                                 </li>
                             </ul>
@@ -139,7 +160,8 @@
                             </p>
                             <p>
                                 One narrow disclosure: requests to this app are handled by an AI assistant. To answer
-                                the owner's question or carry out the requested change, the relevant event details may be
+                                the owner's question or carry out the requested change, the relevant content &mdash;
+                                for example email text, a document or an event &mdash; may be
                                 processed by the large-language-model provider the owner has configured for the
                                 assistant, under that provider's standard API terms. This processing happens solely to
                                 fulfil the owner's own request, on the owner's own data, and is limited to the minimum
@@ -172,9 +194,10 @@
                                     address above.
                                 </li>
                                 <li>
-                                    <strong>Event deletion is never automatic.</strong> The app only deletes a calendar
-                                    event when the account owner has explicitly confirmed that specific event, and deleting
-                                    something is logged in the write log described above.
+                                    <strong>Nothing is ever deleted without confirmation.</strong> The app only deletes a
+                                    calendar event or a Drive file when the account owner has explicitly confirmed that
+                                    specific item, and every deletion is recorded in the write log described above.
+                                    Email cannot be modified or deleted at all.
                                 </li>
                             </ul>
 
